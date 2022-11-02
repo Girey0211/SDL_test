@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <SDL_image.h>
-#include <iostream>
 #include "Game.h"
 
 #define WIDTH 1280
@@ -9,6 +6,7 @@
 int main(int argc, char* argv[]) {
 	Game game;
 	bool success = game.Initialize();
+	srand(time(NULL));
 	if (success) {
 		game.Loop();
 	}

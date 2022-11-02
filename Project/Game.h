@@ -1,5 +1,8 @@
 #pragma once
 #include <SDL.h>
+#include <SDL_image.h>
+#include <iostream>
+#include <ctime>
 
 struct Vector2 {
 	float x;
@@ -15,7 +18,8 @@ public:
 	void shutdown();
 
 	Vector2 mBallPos;
-	Vector2 mPaddlePos;
+	Vector2 mPaddlePosL;
+	Vector2 mPaddlePosR;
 	Vector2 mBallVel;
 
 private:
@@ -29,7 +33,7 @@ private:
 	SDL_Renderer* mRenderer;
 
 	Uint32 mTicksCount;
-	int mPaddleDir;
+	int mPaddleDirL;
+	int mPaddleDirR;
 	
-
 };

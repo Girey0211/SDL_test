@@ -1,2 +1,4 @@
 ﻿  Game.cpp
+C:\Users\user\Documents\Project\Project\Game.cpp(31,3): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\user\Documents\Project\Project\Game.cpp(30,3): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   Project.vcxproj -> C:\Users\user\Documents\Project\x64\Debug\Project.exe
